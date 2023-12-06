@@ -6,6 +6,7 @@ function SEO() {
   return (
     <Head>
       <title>{seoData.title}</title>
+      <meta name="google-site-verification" content="eIByyA3lBIF-gnZLqm6Dui6RUrsFvqIhMmss45yqzFg" />
       <meta name="title" content={seoData.title} />
       <meta name="author" content={seoData.author} />
       <meta name="description" content={seoData.description} />
